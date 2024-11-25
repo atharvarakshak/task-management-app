@@ -29,7 +29,6 @@ export default function App() {
       console.log(response);
     });
 
-    // Cleanup subscriptions
     return () => {
       subscription.remove();
       responseSubscription.remove();
