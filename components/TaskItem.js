@@ -5,6 +5,7 @@ import { Ionicons } from '@expo/vector-icons';
 export default function TaskItem({ task, onDelete, onToggleComplete }) {
   const taskDateTime = new Date(task.dateTime);
 
+  
   return (
     <View style={[
       styles.taskContainer, 
